@@ -26,7 +26,7 @@ window.addEventListener("load", () => {
 // Thêm audio vào trang
 var audio = new Audio("audio/music.mp3");
 audio.loop = true; // Lặp lại nhạc
-audio.volume = 0.15; // Giảm âm lượng xuống 20%
+audio.volume = 0.1; // Giảm âm lượng xuống 20%
 
 // Xử lý sự kiện khi bấm mở thiệp
 var openBtn = document.querySelector(".openBtn");
